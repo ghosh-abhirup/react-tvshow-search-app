@@ -10,7 +10,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/series/:id" element={<SingleSeries />} />
-        <Route path="*" element={<Error />} />
       </Routes>
     </>
   );
